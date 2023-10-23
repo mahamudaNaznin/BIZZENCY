@@ -1,0 +1,542 @@
+/*=========Common Css Start=========*/
+h1,h2,h3,h4,h5,h6,p,ul,ol,li{
+margin: 0;
+}
+ul,ol,li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+.heading h3{
+    font-size: 14px;
+    font-family: var(--first-font);
+    font-weight: 300;
+    color: var(--first-color);
+}
+.heading h2{
+    font-size: 32px;
+    font-family: var(--head-font);
+    color: var(--first-color);
+    text-transform: capitalize;
+}
+.heading p{
+    font-size: 16px;
+    font-family: var(--second-font);
+    font-weight: 400;
+    color: var(--first-color);
+    padding-top:28px;
+}
+/*=========Common Css End=========*/
+:root{
+    --head-font:'Abril Fatface', cursive;
+    --first-font:'Ubuntu', sans-serif;
+    --second-font:'Open Sans', sans-serif;
+    --first-color:#0f2f44;
+    --second-color:#8484bf;
+    --third-color:#ffc712;
+    --fourth-color: #ffffff;
+}
+
+/*=========Start-bar Css Start=========*/
+#start-bar{
+    background-color: var(--first-color);
+color:#fefefe;
+padding:20px 0 ;
+font-family: var(--first-font);
+font-weight:300;
+    
+}
+
+/*=========Start-bar Css End=========*/
+
+/*=========Primary-Nav  Section Css Start=========*/
+#primary-nav #first-menu ul li a{
+   color: #222222;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--first-font);
+    padding: 40px 19px;
+    display: inline-block;
+    text-transform: capitalize;
+    transition: .6s;
+    
+}
+#primary-nav #first-menu ul li a:hover,
+#primary-nav #first-menu ul li button:hover{
+    
+    color:var(--third-color);
+    background-color:#fff9e6;
+}
+#primary-nav #first-menu ul li button{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    background: none;
+    border:1px solid #dedede;
+    margin: 0 10px;
+    
+
+}
+
+/*=========Primary-Nav Section Css End=========*/
+
+/*=========Banner Section Css Start=========*/
+
+#banner{
+    background-image:url(../img/bizzencybanner.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    padding: 135px 0;
+}
+
+#banner h2{
+    color:var(--first-color);
+    font-family:var(--first-font) ;
+    font-weight: 300;
+    font-size: 50px;
+}
+#banner h1{
+    color:var(--first-color);
+    font-size: 80px;
+    font-family: var(--head-font);
+    text-transform: uppercase;
+
+}
+#banner h3{
+color:var(--second-color);
+letter-spacing: 15px;
+text-transform: capitalize;
+font-family: var(--second-font);
+font-weight: 400;
+font-size: 32px;
+padding-top: 22px;
+}
+#banner p{
+    font-size: 14px;
+    color: #444444;
+    font-family: var(--second-font);
+    margin:32px 0;
+    
+}
+#banner a{
+    color:var(--second-color);
+    font-size: 20px;
+    font-family: var(--first-font);
+    font-weight: 500;
+    text-transform: capitalize;
+    background-color:var(--fourth-color);
+    padding: 13px 20px;
+    border-radius: 5px;
+    box-shadow: 0 7px 20px 0px rgba(132, 132, 191, 0.15);
+}
+#banner button{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:var(--fourth-color);
+    margin: 0 20px;
+    color: var(--second-color);
+    border:none;
+    box-shadow: 0 7px 20px 0px rgba(132, 132, 191, 0.15);
+}
+
+#banner button:hover,
+#banner a:hover{
+    color:var(--fourth-color);
+    background-color: var(--third-color);
+}
+
+/*=========Banner Section Css End=========*/
+
+/*=========About Section Css Start=========*/
+#About{
+    margin-top: 100px;
+}
+
+#About .About-content ul li{
+    font-size: 16px;
+    font-family: var(--second-font);
+    font-weight: 400;
+    color: var(--first-color);
+    margin: 30px 0;
+    
+    
+}
+#About a{
+    font-size: 20px;
+    font-family: var(--first-font);
+    font-weight: 500;
+    color: var(--first-color);
+    padding: 10px 20px;
+    text-transform: capitalize;
+    background-color: var(--fourth-color);
+    border-radius: 5px;
+    box-shadow: 0 7px 20px 0px rgba(0, 0, 0, .15);
+    margin: 0 10px;
+    
+    
+}
+ 
+
+#About a:hover{
+    background-color: var(--third-color);
+
+}
+ /*=========About Section Css End=========*/
+
+ /*=========Our Skill Section Css Start=========*/
+#Our-skill{
+    margin: 100px 0;
+}
+.Skill-content .skill-img{
+    padding:30px 150px;
+}
+  /*=========Our Skill Section Css End=========*/
+
+   /*=========Our Service Section Css Start=========*/
+#Our-service{
+    padding: 60px;
+    background-color: #f5f5f5;
+    
+
+}
+
+
+#Our-service .service_box{
+    
+    position: relative;
+    margin-top: 60px;
+    box-shadow: 0 3px 7px 0px rgba(0, 0, 0, .35);
+    border-radius: 5px;
+    
+  
+}
+
+#Our-service .service_box .service_box_icon{
+    width: 100px;
+    background-color: #e9e9e9;
+    padding:72px 20px;
+}
+#Our-service .service_box .service_box_info{
+    width: calc(100% - 100px);
+    background-color: #eeeeee;
+    padding:30px 20px;
+}
+#Our-service .service_box .service_box_info h3{
+color: #222222;
+font-size:20px;
+font-family: var(--first-font);
+font-weight: 500;
+}
+#Our-service .service_box .service_box_info p{
+    color:#999999;
+    
+    font-family: var(--second-font);
+    
+}
+
+#Our-service .service_box .overlay{
+    background-color:var(--first-color);
+    position: absolute;
+    inset:0;
+    transform: scaleX(0);
+    transform-origin: bottom;
+    transition: .5s;
+    color:var(--fourth-color);
+    padding: 0 75px;
+    text-align: center;
+    border-radius: 5px;
+  
+    
+}
+#Our-service .service_box:hover .overlay{
+    transform: scaleX(1);
+}
+#Our-service .service_box .overlay a{
+   background-color: var(--third-color);
+   color: #222222;
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    padding: 18px 18px;
+    
+}
+#Our-service .service_box .overlay img{
+    padding:30px 0;
+}
+#Our-service .service_box .overlay h3{
+    margin-bottom: 45px;
+}
+
+/* =========== Service Section Css End =========== */
+  
+
+     /*=========Our Portfolio Section Css Start=========*/
+#Our-portfolio{
+    margin:98px  0;
+   
+}
+.port-content{
+    position: relative;
+ margin:60px 0;
+   
+    
+}
+.port-content img{
+    width:100%;
+}
+.port-content .overlay{
+    width:100%;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right:0;
+    transform: scale(0);
+    transform-origin: bottom;
+    text-align: center;
+    transition: .6s;
+    color:var(--first-color);
+    font-family: var(--first-font);
+    font-weight: 500;
+    background-color: var(--fourth-color);
+    padding:30px 49px;
+    text-transform: capitalize;
+}
+.port-content:hover .overlay{
+    transform: scale(1);
+}
+
+
+   
+
+.port-browse a{
+    font-size: 20px;
+    font-family: var(--first-font);
+    font-weight: 500;
+    color: var(--first-color);
+    background-color: var(--fourth-color);
+    text-transform: capitalize;
+    box-shadow: 0 7px 20px 0px rgba(0, 0, 0, 0.15);
+    padding: 10px 20px;
+    border-radius: 5px;
+   
+    
+}
+.port-browse a:hover{
+    background-color: var(--third-color);
+}
+
+      /*=========Our Portfolio Section Css End=========*/
+
+
+ /*=========Our testimonial Section Css End=========*/
+#testimonial{
+    padding: 60px 0;
+    background-color: #f5f5f5;
+}
+.testimonial-content-img{
+    width:214px;
+    padding-top:52px ; 
+}
+ #testimonial .testimonial-content-info{
+    width: calc(100% - 214px);
+    background-color:#e9e9e9 ;
+    margin-top:54px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 3px 7px 0px rgba(0, 0, 0, .35);
+    padding: 23px 20px;
+  
+    
+}
+.testimonial-content-info h5{
+    color:var(--first-color);
+    text-transform:capitalize;
+    font-family:var(--first-font) ;
+    font-weight: 500;
+    font-size:20px ;
+    padding-top: 20px ;
+}
+.testimonial-content-info h6{
+    
+    text-transform: uppercase;
+    font-family: var(--first-font);
+    font-weight:300 ;
+    font-size: 16;
+    color:var(--first-color);
+    
+}
+.testimonial-content-info p{
+    font-size:14px;
+    font-family: var(--second-font);
+    font-weight: 400; 
+    color:var(--first-color)
+
+}
+  /*=========Our Testimonial Section Css End=========*/
+
+   /*=========Our Latest Blog Section Css End=========*/
+   #Blog{
+    margin:100px 0;
+
+   }
+   .blog-content-info{
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 22px 22px;
+    position: relative;
+    transition: .6s;
+   }
+   .blog-content-info:hover{
+    background-color: var(--first-color);
+    color: ;
+   }
+
+   .blog-content{
+ 
+    margin: 58px 0;
+  
+   
+
+    
+}
+.blog-info h4{
+    color:#777777;
+    font-size: 14px;
+    font-family: var(--first-font);
+    font-weight: 400;
+    padding: 20px 0;
+}
+.blog-info h3{
+    color: #222222;
+    font-family: var(--first-font);
+    font-size: 20px;
+    font-weight: 500;
+}
+.blog-link a{
+    color: #777777;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--first-font);
+    text-transform: capitalize;
+    padding: 22px 0;
+   
+}
+
+
+.browse a{
+    font-size: 20px;
+    font-family: var(--first-font);
+    font-weight: 500;
+    color: var(--first-color);
+    border-radius: 5px;
+    box-shadow: 0 7px 20px 0px rgba(0, 0, 0, 0.15);
+    padding: 10px 20px;
+    transition: .5s;
+    
+}
+.browse a:hover{
+    background-color: var(--third-color);
+}
+
+
+
+    /*=========Our Latest Blog Section Css End=========*/
+
+
+ /*=========Footer Section Css Start=========*/
+footer{
+    padding:100px 0;
+    background-color:#f5f5f5;
+    box-shadow:0 0px 35px 0px rgba(0, 0, 0, 0.15);
+}
+footer h4{
+    color:#222222;
+    font-size:20px;
+    font-family: var(--first-font);
+    font-weight: 500;
+}
+footer p{
+    color: #999999;
+    font-family: var(--second-font);
+    padding:28px 0;
+    font-weight: 400;
+}
+
+
+
+
+.footer-content .footer-icon1 button{
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    margin: 0 5px;
+
+    border: none;
+    border: 1px solid #1f3d50;
+    color: var(--first-color);
+    
+}
+.footer-content .footer-icon1 button:hover{
+    color: var(--fourth-color);
+    background-color: var(--first-color);
+}
+
+
+.footer-content .address a{
+    padding-top:36px;
+    color: #999999;
+}
+.footer-content .address{
+    padding-top:36px;
+    color: #999999;
+}
+.footer-content .important-links{
+    padding:35px 0;
+   
+}
+.footer-content .important-links li{
+    margin: 20px 0;
+}
+.footer-content .important-links li a{
+    color: #707070;
+    font-family:var(--first-font);
+    transition:.5s;
+    font-weight: 400;
+
+}
+.footer-content .important-links li a:hover{
+    color:var(--first-color);
+    margin-left: 5px;
+
+}
+.footer-content .filckr img{
+    padding: 60px 0;
+    
+   
+}
+.footer {
+ 
+    padding:20px 13px ;
+    color:#888888;
+    font-size:14px;
+    font-family:var(--second-font);
+    font-weight: 400;
+    border-right: 1px solid #888888;
+    text-align: center;
+    text-transform: capitalize;
+   
+
+}
+.footer:last-child {
+    border: none;
+}
+.footer:hover{
+    color: var(--third-color);
+}
+ /*=========Footer Section Css End=========*/
